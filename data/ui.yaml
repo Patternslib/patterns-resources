@@ -1,0 +1,821 @@
+# Label
+
+label_sunday:
+  en: Sunday
+  nl: Zondag
+  de: Sonntag
+  fr: Dimanche
+label_monday:
+  en: Monday
+  nl: Maandag
+  de: Montag
+  fr: Lundi
+label_tuesday:
+  en: Tuesday
+  nl: Maandag
+  de: Dienstag
+  fr: Mardi
+label_wednesday:
+  en: Wednesday
+  nl: Maandag
+  de: Mittwoch
+  fr: Mercredi
+label_thursday:
+  en: Thursday
+  nl: Maandag
+  de: Donnerstag
+  fr: jeudi
+label_friday:
+  en: Friday
+  nl: Maandag
+  de: Freitag
+  fr: vendredi
+label_saturday:
+  en: Saturday
+  nl: Maandag
+  de: Samstag
+  fr: samedi
+
+label_afghanistan:
+  en: Afghanistan
+label_albania:
+  en: Albania
+label_algeria:
+  en: Algeria
+label_andorra:
+  en: Andorra
+label_angola:
+  en: Angola
+label_antigua-and-barbuda:
+  en: Antigua and Barbuda
+label_argentina:
+  en: Argentina
+label_armenia:
+  en: Armenia
+label_australia:
+  en: Australia
+label_austria:
+  en: Austria
+label_azerbaijan:
+  en: Azerbaijan
+label_bahamas:
+  en: Bahamas
+label_bahrain:
+  en: Bahrain
+label_bangladesh:
+  en: Bangladesh
+label_barbados:
+  en: Barbados
+label_belarus:
+  en: Belarus
+label_belgium:
+  en: Belgium
+label_belize:
+  en: Belize
+label_benin:
+  en: Benin
+label_bhutan:
+  en: Bhutan
+label_bolivia:
+  en: Bolivia
+label_bosnia-and-herzegovina:
+  en: Bosnia and Herzegovina
+label_botswana:
+  en: Botswana
+label_brazil:
+  en: Brazil
+label_brunei:
+  en: Brunei
+label_bulgaria:
+  en: Bulgaria
+label_burkina-faso:
+  en: Burkina Faso
+label_burundi:
+  en: Burundi
+label_côte-d'ivoire:
+  en: Côte d'Ivoire
+label_cabo-verde:
+  en: Cabo Verde
+label_cambodia:
+  en: Cambodia
+label_cameroon:
+  en: Cameroon
+label_canada:
+  en: Canada
+label_central-african-republic:
+  en: Central African Republic
+label_chad:
+  en: Chad
+label_chile:
+  en: Chile
+label_china:
+  en: China
+label_colombia:
+  en: Colombia
+label_comoros:
+  en: Comoros
+label_congo-(congo-brazzaville):
+  en: Congo (Congo-Brazzaville)
+label_costa-rica:
+  en: Costa Rica
+label_croatia:
+  en: Croatia
+label_cuba:
+  en: Cuba
+label_cyprus:
+  en: Cyprus
+label_czechia-(czech-republic):
+  en: Czechia (Czech Republic)
+label_democratic-republic-of-the-congo:
+  en: Democratic Republic of the Congo
+label_denmark:
+  en: Denmark
+label_djibouti:
+  en: Djibouti
+label_dominica:
+  en: Dominica
+label_dominican-republic:
+  en: Dominican Republic
+label_ecuador:
+  en: Ecuador
+label_egypt:
+  en: Egypt
+label_el-salvador:
+  en: El Salvador
+label_equatorial-guinea:
+  en: Equatorial Guinea
+label_eritrea:
+  en: Eritrea
+label_estonia:
+  en: Estonia
+label_eswatini-(fmr.-"swaziland"):
+  en: Eswatini (fmr. "Swaziland")
+label_ethiopia:
+  en: Ethiopia
+label_fiji:
+  en: Fiji
+label_finland:
+  en: Finland
+label_france:
+  en: France
+label_gabon:
+  en: Gabon
+label_gambia:
+  en: Gambia
+label_georgia:
+  en: Georgia
+label_germany:
+  en: Germany
+label_ghana:
+  en: Ghana
+label_greece:
+  en: Greece
+label_grenada:
+  en: Grenada
+label_guatemala:
+  en: Guatemala
+label_guinea:
+  en: Guinea
+label_guinea-bissau:
+  en: Guinea-Bissau
+label_guyana:
+  en: Guyana
+label_haiti:
+  en: Haiti
+label_holy-see:
+  en: Holy See
+label_honduras:
+  en: Honduras
+label_hungary:
+  en: Hungary
+label_iceland:
+  en: Iceland
+label_india:
+  en: India
+label_indonesia:
+  en: Indonesia
+label_iran:
+  en: Iran
+label_iraq:
+  en: Iraq
+label_ireland:
+  en: Ireland
+label_israel:
+  en: Israel
+label_italy:
+  en: Italy
+label_jamaica:
+  en: Jamaica
+label_japan:
+  en: Japan
+label_jordan:
+  en: Jordan
+label_kazakhstan:
+  en: Kazakhstan
+label_kenya:
+  en: Kenya
+label_kiribati:
+  en: Kiribati
+label_kuwait:
+  en: Kuwait
+label_kyrgyzstan:
+  en: Kyrgyzstan
+label_laos:
+  en: Laos
+label_latvia:
+  en: Latvia
+label_lebanon:
+  en: Lebanon
+label_lesotho:
+  en: Lesotho
+label_liberia:
+  en: Liberia
+label_libya:
+  en: Libya
+label_liechtenstein:
+  en: Liechtenstein
+label_lithuania:
+  en: Lithuania
+label_luxembourg:
+  en: Luxembourg
+label_madagascar:
+  en: Madagascar
+label_malawi:
+  en: Malawi
+label_malaysia:
+  en: Malaysia
+label_maldives:
+  en: Maldives
+label_mali:
+  en: Mali
+label_malta:
+  en: Malta
+label_marshall-islands:
+  en: Marshall Islands
+label_mauritania:
+  en: Mauritania
+label_mauritius:
+  en: Mauritius
+label_mexico:
+  en: Mexico
+label_micronesia:
+  en: Micronesia
+label_moldova:
+  en: Moldova
+label_monaco:
+  en: Monaco
+label_mongolia:
+  en: Mongolia
+label_montenegro:
+  en: Montenegro
+label_morocco:
+  en: Morocco
+label_mozambique:
+  en: Mozambique
+label_myanmar-(formerly-burma):
+  en: Myanmar (formerly Burma)
+label_namibia:
+  en: Namibia
+label_nauru:
+  en: Nauru
+label_nepal:
+  en: Nepal
+label_netherlands:
+  en: Netherlands
+label_new-zealand:
+  en: New Zealand
+label_nicaragua:
+  en: Nicaragua
+label_niger:
+  en: Niger
+label_nigeria:
+  en: Nigeria
+label_north-korea:
+  en: North Korea
+label_north-macedonia:
+  en: North Macedonia
+label_norway:
+  en: Norway
+label_oman:
+  en: Oman
+label_pakistan:
+  en: Pakistan
+label_palau:
+  en: Palau
+label_palestine-state:
+  en: Palestine State
+label_panama:
+  en: Panama
+label_papua-new-guinea:
+  en: Papua New Guinea
+label_paraguay:
+  en: Paraguay
+label_peru:
+  en: Peru
+label_philippines:
+  en: Philippines
+label_poland:
+  en: Poland
+label_portugal:
+  en: Portugal
+label_qatar:
+  en: Qatar
+label_romania:
+  en: Romania
+label_russia:
+  en: Russia
+label_rwanda:
+  en: Rwanda
+label_saint-kitts-and-nevis:
+  en: Saint Kitts and Nevis
+label_saint-lucia:
+  en: Saint Lucia
+label_saint-vincent-and-the-grenadines:
+  en: Saint Vincent and the Grenadines
+label_samoa:
+  en: Samoa
+label_san-marino:
+  en: San Marino
+label_sao-tome-and-principe:
+  en: Sao Tome and Principe
+label_saudi-arabia:
+  en: Saudi Arabia
+label_senegal:
+  en: Senegal
+label_serbia:
+  en: Serbia
+label_seychelles:
+  en: Seychelles
+label_sierra-leone:
+  en: Sierra Leone
+label_singapore:
+  en: Singapore
+label_slovakia:
+  en: Slovakia
+label_slovenia:
+  en: Slovenia
+label_solomon-islands:
+  en: Solomon Islands
+label_somalia:
+  en: Somalia
+label_south-africa:
+  en: South Africa
+label_south-korea:
+  en: South Korea
+label_south-sudan:
+  en: South Sudan
+label_spain:
+  en: Spain
+label_sri-lanka:
+  en: Sri Lanka
+label_sudan:
+  en: Sudan
+label_suriname:
+  en: Suriname
+label_sweden:
+  en: Sweden
+label_switzerland:
+  en: Switzerland
+label_syria:
+  en: Syria
+label_tajikistan:
+  en: Tajikistan
+label_tanzania:
+  en: Tanzania
+label_thailand:
+  en: Thailand
+label_timor-leste:
+  en: Timor-Leste
+label_togo:
+  en: Togo
+label_tonga:
+  en: Tonga
+label_trinidad-and-tobago:
+  en: Trinidad and Tobago
+label_tunisia:
+  en: Tunisia
+label_turkey:
+  en: Turkey
+label_turkmenistan:
+  en: Turkmenistan
+label_tuvalu:
+  en: Tuvalu
+label_uganda:
+  en: Uganda
+label_ukraine:
+  en: Ukraine
+label_united-arab-emirates:
+  en: United Arab Emirates
+label_united-kingdom:
+  en: United Kingdom
+label_united-states-of-america:
+  en: United States of America
+label_uruguay:
+  en: Uruguay
+label_uzbekistan:
+  en: Uzbekistan
+label_vanuatu:
+  en: Vanuatu
+label_venezuela:
+  en: Venezuela
+label_vietnam:
+  en: Vietnam
+label_yemen:
+  en: Yemen
+label_zambia:
+  en: Zambia
+label_zimbabwe:
+  en: Zimbabwe
+
+label_ok:
+  en: Okay
+  nl: Oké
+label_cancel:
+  de: Abbrechen
+  en: Cancel
+  nl: Annuleer
+  fr: Annuler
+label_remove:
+  nl: Verwijder
+  en: Remove
+  fr: Supprimer
+  de: Entfernen
+label_no:
+  bg: Не
+  ca: 'No'
+  cs: Ne
+  de: Nein
+  el: Όχι
+  en: 'No'
+  es: 'No'
+  fi: Ei
+  fr: Non
+  hr: Ne
+  hu: Nem
+  is: Nei
+  it: 'No'
+  lt: Ne
+  lv: Nē
+  mt: Le
+  nl: Nee
+  nl_BE: Nee
+  'no': ''
+  pt: Não
+  sl: Ne
+label_yes:
+  nl: Ja
+  en: Yes
+  fr: Oui
+  de: Ja
+label_time:
+  nl: Tijd
+  en: Time
+  fr: Heure
+  de: Zeit
+label_date:
+  nl: Datum
+  en: Date
+  fr: Date
+  de: Datum
+label_previous:
+  bg: Назад
+  ca: Anterior
+  cs: Předchozí
+  de: Vorhergehende
+  el: Προηγούμενο
+  en: Previous
+  es: Anterior
+  fi: Edellinen
+  fr: Précédent
+  hr: Prethodni
+  hu: Előző
+  is: Fyrra
+  it: Indietro
+  lt: Ankstesnis
+  lv: Atpakaļ
+  mt: Preċedenti
+  nl: Vorige
+  nl_BE: Vorige
+  'no': ''
+  pt: Anterior
+  sl: Nazaj
+label_next:
+  bg: Напред
+  ca: Següent
+  cs: Další
+  de: Weiter
+  el: Επόμενο
+  en: Next
+  es: Siguiente
+  fi: Seuraava
+  fr: Suivant
+  hr: Sljedeće
+  hu: Következő
+  is: Næsta
+  it: Avanti
+  lt: Toliau
+  lv: Tālāk
+  mt: Li jmiss
+  nl: Volgende
+  nl_BE: Volgende
+  'no': ''
+  pt: Seguinte
+  sl: Naprej
+label_sorting:
+  nl: Sortering
+  en: Sorting
+  fr: Tri
+  de: Sortierung
+label_edit:
+  nl: Bewerk
+  de: Bearbeiten
+  en: Edit
+  fr: Modifier
+label_never:
+  nl: Nooit
+  en: Never
+  de: Never
+label_immediately: 
+  nl: Onmiddelijk
+  en: Immediately
+  de: Immediately
+label_close:
+  de: Schließen
+  en: Close
+  fr: Fermer
+  nl: Sluit
+label_daily: 
+  nl: Dagelijks
+  en: Daily
+  de: Täglich
+  fr: Du quotidien
+label_weekly:
+  nl: Wekelijks
+  en: Weekly
+  de: Wöchentlich
+  fr: Hebdomadaire
+label_monthly: 
+  nl: Maandelijks
+  en: Monthly
+  de: Monthly
+  fr: Mensuel
+label_contrast:
+  nl: Contrast
+  en: Contrast
+  de: Contrast
+label_font_size:
+  nl: Lettertypegrootte
+  en: Font size
+  de: Font size
+label_dashboard:
+  nl: Dashboard
+  en: Dashboard
+  de: Dashboard
+label_accessibility:
+  nl: Toegankelijkheid
+  en: Accessibility
+  de: Accessibility
+label_no_notification:
+  nl: Geen berichtgeving
+  en: No notification
+  de: No notification
+label_notifications:
+  nl: Berichtgeving
+  en: Notifications
+  de: Notifications
+label_language:
+  nl: Taal
+  en: Language
+  de: Sprache
+  fr: Langue
+label_system_language:
+  nl: Systeemtaal
+  en: System language
+  de: Systemsprache
+  fr: Langue du système
+label_english:
+  nl: Engels
+  en: English
+  de: Englisch
+  fr: Anglais
+label_dutch:
+  nl: Nederlands
+  en: Dutch
+  de: Niederländisch
+  fr: Néerlandais
+label_german:
+  nl: Duits
+  en: German
+  de: Deutsch
+  fr: Allemand
+label_german_native:
+  nl: Deutsch
+  en: Deutsch
+  de: Deutsch
+  fr: Deutsch
+label_french:
+  nl: Frans
+  en: French
+  de: Französisch
+  fr: Français
+label_french_native:
+  nl: Français
+  en: Français
+  de: Français
+  fr: Français
+label_dutch_native:
+  nl: Nederlands
+  en: Nederlands
+  de: Nederlands
+  fr: Nederlands
+label_english_native:
+  nl: English
+  en: English
+  de: English
+  fr: English
+label_maintenance:
+  nl: Onderhoud
+  en: Maintenance
+  de: Instandhaltung
+label_visibility: 
+  nl: Zichtbaarheid
+  en: Visibility
+  de: Visibility
+label_back:
+  nl: Terug
+  de: Zurück
+  en: Back
+  fr: Retourner
+label_contributions:
+  nl: Bijdragen
+  de: Contributions
+  en: Contributions
+label_users:
+  nl: Gebruikers
+  en: Users
+  de: Benutzers
+  fr: Utilisateurs
+label_account: 
+  nl: Account
+  en: Account
+  de: Konto
+  fr: Compte
+label_preview: 
+  nl: Voorvertoning
+  en: Preview
+  de: Vorschau
+  fr: Aperçu
+label_settings:
+  nl: Instellingen
+  en: Settings
+  de: Einstellungen
+  fr: Paramètres
+label_save:
+  nl: Sla op
+  en: Save
+  de: Speichern
+label_job_title:
+  nl: Functie
+  en: Job title
+  de: Berufsbezeichnung
+label_department:
+  nl: Afdeling
+  en: Department
+  de: Abteilung
+label_primary_location: 
+  nl: Hoofdlocatie
+  en: Primary location
+  de: Hauptstandort
+label_time_zone:
+  nl: Tijdzone
+  en: Time zone
+  de: Zeitzone
+label_telephone_number:
+  nl: Telefoonnummer
+  en: Telephone number
+  fr: Numéro de téléphone
+  de: Telefonnummer
+label_telephone_number_mobile:
+  nl: Mobiel telefoonnummer
+  en: Telephone number mobile
+  de: Telefonnummer Handy
+  fr: Numéro de portable
+label_telephone_number_internal:
+  nl: Telefoonnummer intern
+  en: Telephone number internal
+  de: Interne Telefonnummer
+  fr: Numéro de téléphone interne
+label_email:
+  nl: E-mail
+  en: E-mail
+  de: E-mail
+  fr: Courriel
+label_title:
+  nl: Titel
+  en: Title
+  de: Titel
+label_description:
+  nl: Beschrijving
+  en: Description
+  de: Description
+label_biography:
+  nl: Biografie
+  en: Biography
+  de: Biografie  
+label_day:
+  nl: Dag
+  en: Day
+  de: Tag  
+label_year:
+  nl: Jaar
+  en: Year
+  de: Jahr  
+label_january:
+  nl: Januari
+  en: January
+  de: Januar  
+label_february:
+  nl: Februari
+  en: February  
+  de: Februar
+label_march:
+  nl: Maart
+  en: March  
+  de: März
+label_april:
+  nl: April
+  en: April
+  de: April  
+label_may:
+  nl: Mei
+  en: May
+  de: Mai  
+label_june:
+  nl: Juni
+  en: June  
+  de: Juni
+label_july:
+  nl: Juli
+  en: July  
+  de: Juli
+label_august:
+  nl: Augustus
+  en: August  
+  de: August
+label_september:
+  nl: September
+  en: September
+  de: Septembers
+label_october:
+  nl: Oktober
+  en: October  
+  de: Oktober
+label_november:
+  nl: November
+  en: November  
+  de: November
+label_december:
+  nl: December
+  en: December
+  de: Dezember 
+label_birthdate:
+  nl: Geboortedatum
+  en: Birthdate
+  de: Geburtstag
+label_options:
+  nl: Opties
+  en: Options
+  de: Optionen
+  fr: Options
+
+label_bookmarks:
+  nl: Bladwijzers
+  en: Bookmarks
+  en: Lesezeichen
+label_select:
+  nl: Selecteer
+  en: Select
+label_read_more:
+  nl: Lees meer…
+  en: Read more…
+label_step:
+  nl: Stap
+  en: Step
+label_log_out:
+  nl: Log uit
+  en: Log out
+label_my_profile:
+  nl: Mijn profiel
+  en: My profile
+label_change_password:
+  nl: Wijzig wachtwoord
+  en: Change password
+label_preferences:
+  nl: Voorkeuren
+  en: Preferences
+label_replace_photo:
+  nl: Vervang foto
+  en: Replace photo
+label_upload_photo:
+  nl: Laad een foto op
+  en: Upload a photo

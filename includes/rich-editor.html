@@ -1,0 +1,32 @@
+{% if site.editor == 'redactor' %}
+    <textarea
+      {% if page.saved_state == 'locked' %}disabled{% endif %}
+      class="pat-redactor {% if include.autofocus == true %}pat-autofocus{% endif %}"
+      placeholder="{{ include.placeholder }}"
+      data-pat-redactor="imageupload: @@star-quickupload; imagegetjson: /feedback/images.json; imageresizable: true; toolbar-external: #{{ include.toolbar }}; buttons: format, bold, italic, deleted, lists, link, line, image; formatting: p, h1, h2, h3, blockquote, pre; plugins: alignment,table,video,imagemanager">
+        {% if include.content %}{{ include.content }}{% endif %}
+    </textarea>
+{% elsif site.editor == 'ckeditor' %}
+    <textarea
+      {% if page.saved_state == 'locked' %}disabled{% endif %}
+      class="pat-ckeditor {% if include.autofocus == true %}pat-autofocus{% endif %}"
+      placeholder="{{ include.placeholder }}"
+      data-pat-ckeditor="image-upload: @@star-quickupload; image-get-json: /feedback/images.json; imageresizable: true; toolbar-external: #{{ include.toolbar }}; show-source-button: true; buttons: undo, redo, format, bold, italic, deleted, lists, line, link, mark, small, image; formatting: p, h1, h2, h3, blockquote, pre; plugins: alignment,table,video,imagemanager">
+        {% if include.content %}{{ include.content }}{% endif %}
+    </textarea>
+{% elsif site.editor == 'tiptap' %}
+    <textarea
+      {% if page.saved_state == 'locked' %}disabled{% endif %}
+      class="pat-tiptap {% if include.autofocus == true %}pat-autofocus{% endif %}"
+      placeholder="{{ include.placeholder }}"
+      data-pat-tiptap="
+        toolbar-external: #{{ include.toolbar }};
+        source-panel: {{ include.html-source-panel }};
+        image-panel: {{ include.image-panel }};
+        link-panel: {{ include.link-panel }};
+        context-menu-link: {{ include.context-menu-link }};
+        context-menu-mentions: {{ include.context-menu-mentions }};
+        url-scheme-mentions: {{ include.url-scheme-mentions }};
+        context-menu-tags: {{ include.context-menu-tags }};
+        url-scheme-tags:  {{ include.url-scheme-tags }}">{% if include.content %}{{ include.content }}{% endif %}</textarea>
+{% endif %}

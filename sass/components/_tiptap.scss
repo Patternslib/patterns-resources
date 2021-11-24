@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+textarea.pat-tiptap {
+   opacity: 0
+}
+
+.tiptap-container {
+   animation: fadeIn 0.4s;
+
+   .ProseMirror {
+      outline: none;
+
+      p[data-placeholder] {
+
+         &:before {
+            content: attr(data-placeholder);
+            color: silver;
+         }
+      }
+   }
+   .ProseMirror-focused {
+      p[data-placeholder] {
+
+         &:before {
+             display: none;
+         }
+      }
+   }
+}

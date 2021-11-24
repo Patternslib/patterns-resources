@@ -1,0 +1,171 @@
+<div
+    id="{{ include.id }}"
+    class="editor-toolbar {{ site.editor }}">
+    {% if site.editor == 'tiptap' %}
+        <div
+            class="pat-collapsible context-menu closed align-left no-label icon-paragraph"
+            data-pat-collapsible="close-trigger: .context-menu:not(#formatting-menu),.close-menu;"
+            id="formatting-menu">
+            <strong
+                class="context-menu-label menu-trigger pat-tooltip"
+                data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Formatting</strong>
+            <p
+                class="close-menu">Close</p>
+            <ul
+                class="menu-list">
+                <li>
+                    <button
+                        type="button"
+                        class="button-heading-level-1 icon-header">Header level 1</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-heading-level-2 icon-header">Header level 2</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-heading-level-3 icon-header">Header level 3</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-paragraph icon-paragraph">Normal</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-blockquote icon-quote-left">Quote</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-code-block icon-code">Code</button>
+                </li>
+            </ul>
+        </div>
+
+    	<button
+            type="button"
+            class="icon icon-bold button-bold pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Bold</button>
+    	<button
+            type="button"
+            class="icon icon-italic button-italic pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Italic</button>
+        <button
+            type="button"
+            class="icon icon-strike button-strike pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Strike</button>
+        <a
+            class="icon icon-link button-link pat-modal pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label"
+            data-pat-modal="class: medium panel panel-hyperlink"
+            href="/feedback/panel-hyperlink#document-content">Hyperlink</a>
+
+        <button
+            type="button"
+            class="button-horizontal-rule icon icon-minus pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Horizontal rule</button>
+
+        <div
+            type="button"
+            class="pat-collapsible context-menu closed align-left no-label icon-list"
+            data-pat-collapsible="close-trigger: .context-menu:not(#list-menu),.close-menu;"
+            id="list-menu">
+            <strong
+                class="context-menu-label menu-trigger pat-tooltip"
+                data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Lists</strong>
+            <p
+                class="close-menu">Close</p>
+            <ul
+                class="menu-list">
+                <li>
+                    <button
+                        type="button"
+                        class="button-unordered-list icon-list-bullet">Bullet list</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-ordered-list icon-list-numbered">Ordered list</button>
+                </li>
+            </ul>
+        </div>
+
+        <a
+            class="icon icon-picture-1 button-image pat-modal pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label"
+            data-pat-modal="class: medium panel image-picker"
+            href="/feedback/panel-upload-image#document-content">Image</a>
+
+        <div
+            class="pat-collapsible context-menu closed align-right no-label icon-table"
+            data-pat-collapsible="close-trigger: .context-menu:not(#table-menu),.close-menu;"
+            id="table-menu">
+            <strong
+                class="context-menu-label menu-trigger pat-tooltip"
+                data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Tables</strong>
+            <p
+                class="close-menu">Close</p>
+            <ul
+                class="menu-list">
+                <li>
+                    <button
+                        type="button"
+                        class="button-table-create icon-plus-squared">Create table</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-table-remove icon-minus-squared">Remove table</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-table-add-column-left icon-add-column-left">Add column to the left</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-table-add-column-right icon-add-column">Add column to the right</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-table-remove-column icon-remove-column">Remove column</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-table-add-row-above icon-add-row-above">Add row above</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-table-add-row-below icon-add-row">Add row below</button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="button-table-remove-row icon-remove-row">Remove row</button>
+                </li>
+            </ul>
+        </div>
+        <button
+            type="button"
+            class="button-undo icon icon-ccw pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Undo</button>
+        <button
+            type="button"
+            class="button-redo icon icon-cw pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label">Redo</button>
+        <a
+            class="icon icon-html5 button-source pat-modal pat-tooltip"
+            data-pat-tooltip="trigger: hover; source: content; position-list: tm; class: label"
+            data-pat-modal="class: medium panel html-source-editor panel-html-source-editor"
+            title="HTML source editor"
+            href="/feedback/panel-html-source-editor#document-content">Code</a>
+    {% endif %}
+</div>

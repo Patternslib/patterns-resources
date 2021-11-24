@@ -1,0 +1,36 @@
+{% capture src %}{{ include.src }}{% endcapture %}
+
+<div class="comments {% unless page[this_discussion_id] %}no-comments{% endunless %}" 
+     id="{{ include.id }}">
+    {% if page.[src] %}
+        <div id="comment-trail-{{ include.id }}" class="comment-trail">
+          {% assign count == 1 %}
+          {% for comment in page.[src] %}
+            {% if comment.older %}
+              <p class="older-comments" id="older-comments-{{ include.id }}">
+                <a href="/feedback/older-comments.html#comment-trail-{{ include.id }}" class="pat-inject" data-pat-inject="source: #comment-trail-{{ include.id }}; target: #comment-trail-{{ include.id }} && source: #{{ include.id }}-size::element; target: #{{ include.id }}-size::element">Show older comments</a>
+                <span class="counter">{{ comment.older }}</span>
+              </p>
+            {% else %}
+              {% include patterns/comment.html %}
+            {% endif %}
+          {% endfor %}
+          {% unless layout.auto_refresh_discussions == false %}
+            <!-- The link below refresh the comment trail at an interval of 30 seconds. The URL may be the page URL or a URL of a page that only contains the comment for perforamce optimisation. -->
+            <a hidden href="{{ page.url }}" 
+               class="pat-inject" 
+               data-pat-inject="source: #{{ include.id }}-size::element; target: #{{ include.id }}-size::element; trigger: autoload; delay: 5s && source: #comment-trail-{{ include.id }}::element; target: #comment-trail-{{ include.id }}::element; trigger: autoload; delay: 5s">Refresh feed</a>
+          {% endunless %}
+        </div>
+    {% endif %}
+    {% capture local_action %}{{ field_action }}{% endcapture %}
+    {% unless page.url contains '-revisie' %}
+      {% unless page.url contains '-compare' %}
+        {% include patterns/message-box.html 
+                   id=include.id 
+                   visibility="false" 
+                   action=include.action
+                   has-comments=include.has-comments %} 
+      {% endunless %}
+    {% endunless %}
+</div>

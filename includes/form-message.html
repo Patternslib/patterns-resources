@@ -1,0 +1,5 @@
+{% if item.message %}
+	<em class="pat-message {{ item.message-type }}">
+		{% include patterns/i18n id=include.message %}
+	</em>	
+{% endif %}

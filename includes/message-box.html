@@ -1,0 +1,31 @@
+<fieldset 
+    id="{{ include.id }}-text-box" 
+    class="pat-subform pat-inject message-box {% if include.status %}status-{{ include.status }}{% else %}status-inactive{% endif %} {{ include.class }} {% if include.has-comments %}has-comments{% endif %}" 
+    data-pat-inject="source: #{{ include.id }}::element; target: #{{ include.id }}::element">
+    <p 
+        class="content-mirror"><span class="text"  id="mirror-{{ include.id }}"><em class="placeholder">{% if include.placeholder %}{{ include.placeholder }}{% else %}Leave a comment{% endif %}</em></span></p>
+    <textarea 
+        maxlength="1000" 
+        placeholder="{% if include.placeholder %}{{ include.placeholder }}{% else %}Leave a comment{% endif %}" 
+        class="pat-content-mirror pat-switch" 
+        data-pat-content-mirror="target: #mirror-{{ include.id }}" 
+        data-pat-switch="#{{ include.id }}-text-box status-inactive status-active"></textarea>
+
+    <input 
+        id="{{ include.id }}-size" 
+        type="hidden" 
+        name="size" 
+        value="all" />
+
+    <div class="button-bar">
+        <button 
+            formaction="{{ include.action }}#{{ include.id }}" 
+            class="pat-button pat-switch close-panel default" 
+            data-pat-switch="#{{ include.id }}-text-box status-* status-inactive" 
+            type="submit">Post</button>
+        <button 
+            class="pat-button pat-switch close-panel" 
+            data-pat-switch="#{{ include.id }}-text-box status-* status-inactive" 
+            type="reset">Cancel</button>
+    </div>
+</fieldset>

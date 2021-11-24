@@ -1,0 +1,36 @@
+<div class="comment" id="{{mypostUID}}-comment-{% increment count %}">
+	<div class="comment-header">
+		<a href="{{ user.id }}">
+			<span class="pat-avatar">
+				<img src="/media/users/{{ comment.user | slugify }}.jpg" alt="" />
+			</span>
+			<h4 class="name">
+				{{ comment.user }}
+			</h4>
+			<time class="modification-date pat-display-time" 
+                  data-pat-display-time="from-now: true; locale: {{ site.lang }}" 
+                  datetime="{{ comment.datestamp | date: '%Y-%m-%d' }}T09:42Z" 
+                  title="{{ comment.datestamp | date_to_long_string }}, 9:42">{{ comment.datestamp | date_to_long_string }}, 9:42</time>
+		</a>
+        {% if comment.user == 'Cornelis G. A. Kolbach' %}
+			<a href="/feedback/comment-menu.html#panel-content" class="options iconified icon-cog pat-tooltip" data-pat-tooltip="source: ajax">Options</a>
+		{% endif %}
+	</div>
+	<section class="comment-content">
+		<p>{{ comment.text }}</p>
+	</section>
+	{% if comment.preview %}
+		<section class="preview">
+			<figure>
+				{% if comment.preview_url %}
+					<a href="{{comment.preview_url}}">
+				{% endif %}
+				<img src="{{comment.preview }}" alt="" />
+				{% if comment.preview_url %}
+					</a>
+				{% endif %}
+			</figure>
+		</section>
+	{% endif %}
+</div>
+

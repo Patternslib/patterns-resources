@@ -1,0 +1,40 @@
+<ol 
+    class="pat-sortable pat-clone sortable-items-list" 
+    data-pat-clone="template: #{{ include.id }}-template; trigger-element: #add-{{ include.id }} ;" 
+    data-pat-sortable="selector: .sortable-item">
+
+    <li 
+        class="{{ include.id }} sortable-item">
+       <textarea 
+            placeholder="{% include patterns/i18n id=include.placeholder %}"
+            rows="{{ include.rows }}" /></textarea>
+
+       <span 
+            class="button-cluster"><button class="sortable-button-up small pat-button" type="submit" name="up" value="up">Up</button> <button class="sortable-button-down small pat-button" type="submit" name="item_1_down" value="item_1_down">down</button></span>
+    </li>
+
+
+    <li 
+        hidden 
+        class="{{ include.id }} sortable-item" id="{{ include.id }}-template">
+        <textarea 
+            placeholder="{% include patterns/i18n id=include.placeholder %}" 
+            class="pat-autofocus"
+            rows="{{ include.rows }}" /></textarea> <span class="button-cluster"><button class="sortable-button-up small pat-button" type="submit" name="up" value="up">Up</button> <button class="sortable-button-down small pat-button" type="submit" name="item_3_down" value="item_3_down">down</button></span>
+    </li>
+
+</ol>
+
+<p 
+    class="button-bar">
+    <button 
+        class="pat-button add-item icon-plus-circle small add-clone" 
+        type="button" 
+        id="add-{{ include.id }}">{% include patterns/i18n id=include.add-button-label %}</button>
+</p>
+
+<input 
+    type="hidden" 
+    class="sortable-amount" 
+    name="pat-sortable-amount" 
+    value="1" />
